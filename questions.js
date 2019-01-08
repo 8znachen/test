@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Корпоративний гніт є більшою проблемою, аніж урядовий.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "Необхідно, аби уряд втручався в економіку для захисту споживачів.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Чим вільніші ринки, тим вільніше населення.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Краще підтримувати збалансований бюджет, аніж підтримувати добробут усього населення.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "Корисніше фінансувати наукові дослідження публічно, аніж покладатися на ринок.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "International trade is beneficial.",
+        "question": "Міжнародна торгівля — корисна.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Від кожного за здібностями, кожному за потребами.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -63,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Було би краще, якби соціальні програми було замінено приватною благодійністю.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Потрібно збільшити податки для багатих, аби забезпечувати бідних.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Спадок — це прийнятна форма збагачення.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Public utilities like roads and electricity should be publicly owned.",
+        "question": "Об'єкти інфраструктури, як-от дороги чи електрична мережа, мають бути у громадській власності.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Excessive government intervention is a threat to the economy.",
+        "question": "Надмірне втручання уряду є загрозою для економіки.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Ті, хто можуть платити більше, повинні отримувати кращі медичні послуги.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "Якісна освіта — це право кожної людини.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Засоби виробництва повинні належати робітникам, які ними послуговуються.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "ООН потрібно розпустити.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Нам часто необхідно застосовувати військову силу, аби захистити нашу державу.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "Я підтримую регіональні союзи, як-от Європейський союз.",
         "effect": {
             "econ": -5,
             "dipl": 10,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "Важливо зберігати наш національний суверенітет.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -171,7 +171,7 @@ questions = [
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "Об'єднаний світовий уряд був би корисним для людства.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Важливіше зберігати мирні відносини, аніж нарощувати силу.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -189,7 +189,7 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Війни не потрібно виправдовувати перед іншими країнами.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -198,7 +198,7 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Військові витрати — це марнотратство.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -207,7 +207,7 @@ questions = [
         }
     },
     {
-        "question": "International aid is a waste of money.",
+        "question": "Міжнародна допомога — це марнотратство.",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -216,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "Моя нація велика.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -225,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "Наукові дослідження слід проводити в міжнародному масштабі.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -234,7 +234,7 @@ questions = [
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Національні уряди повинні бути підзвітні міжнародній спільноті.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -243,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Навіть під час боротьби з авторитарною владою насильство не є допустимим.",
         "effect": {
             "econ": 0,
             "dipl": 5,
@@ -252,7 +252,7 @@ questions = [
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "Мої релігійні цінності потрібно поширювати якнайбільше.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -261,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Цінності нашої держави потрібно поширювати якнайбільше.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -270,7 +270,7 @@ questions = [
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "Дуже важливо підтримувати закон і порядок.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -279,7 +279,7 @@ questions = [
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "Широкі маси приймають погані рішення.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Victimless crimes (such as drug use) should not be crimes at all.",
+        "question": "Злочини без жертв (як використання наркотиків) не повинні бути злочинами взагалі.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,7 +297,7 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Пожертвувати окремими громадянськими свободами необхідно, аби захиститися від тероризму.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +306,7 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "Спостереження з боку влади є необхідним у сучасному світі.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "Саме існування держави є загрозою нашій свободі.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "Незважаючи на політичні уподобання, важливо бути на боці своєї країни.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "No authority should be left unquestioned.",
+        "question": "Усю владу потрібно ставити під сумнів.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "Ієрархічна держава - найкраща.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,7 +351,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "Важливо, аби влада дотримувалася думки більшості, навіть якщо вона неправильна.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -360,7 +360,7 @@ questions = [
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
+        "question": "Чим сильніше лідерство, тим краще.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -369,7 +369,7 @@ questions = [
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "Демократія — це більше, аніж процес прийняття рішень.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,7 +378,7 @@ questions = [
         }
     },
     {
-        "question": "Environmental regulations are essential.",
+        "question": "Екологічна регуляція є необхідною.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -387,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "Кращий світ створять автоматизація, наука та технологія.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -396,7 +396,7 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "Дітей потрібно навчати релігійних чи традиційних цінностей.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -405,7 +405,7 @@ questions = [
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "Традиції самі по собі не мають жодної цінності.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -414,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "Religion should play a role in government.",
+        "question": "Релігія повинна відігравати роль у владі.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "Церкви потрібно оподатковувати нарівні з іншими інституціями.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -432,7 +432,7 @@ questions = [
         }
     },
     {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "Сьогодні зміна клімату — це одна з найбільших загроз нашому способу життя.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -441,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
+        "question": "Важливо, аби ми виступили проти зміни клімату цілим світом.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -450,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "Багато років тому суспільство було кращим, аніж зараз.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -459,7 +459,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
+        "question": "Важливо зберігати традиції нашого минулого.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -468,7 +468,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
+        "question": "Важливо думати в довгій перспективі, на довше, аніж наші власні життя.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -477,7 +477,7 @@ questions = [
         }
     },
     {
-        "question": "Reason is more important than maintaining our culture.",
+        "question": "Притомність важливіша, аніж збереження нашої культури.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "Drug use should be legalized or decriminalized.",
+        "question": "Наркотики потрібно легалізувати або декриміналізувати.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -495,7 +495,7 @@ questions = [
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "Одностатеві шлюби мають бути законними.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -504,7 +504,7 @@ questions = [
         }
     },
     {
-        "question": "No cultures are superior to others.",
+        "question": "Жодна культура не є вищою за інші.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -513,7 +513,7 @@ questions = [
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "Секс поза шлюбом є аморальним.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -522,7 +522,7 @@ questions = [
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "Якщо ми приймаємо мігрантів узагалі, то важливо, аби вони асимілювалися в нашу культуру.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -531,7 +531,7 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "Аборти мають бути заборонені в більшості випадків.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -540,7 +540,7 @@ questions = [
         }
     },
     {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
+        "question": "Володіння зброєю має бути забороненим для тих, у кого на це немає вагомої причини.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -549,7 +549,7 @@ questions = [
         }
     },
     {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "Я підтримую універсальне медичне страхування.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -558,7 +558,7 @@ questions = [
         }
     },
     {
-        "question": "Prostitution should be illegal.",
+        "question": "Проституція повинна бути незаконною.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -567,7 +567,7 @@ questions = [
         }
     },
     {
-        "question": "Maintaining family values is essential.",
+        "question": "Необхідно підтримувати сімейні цінності.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -576,7 +576,7 @@ questions = [
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "Гнатися за прогресом за будь-яку ціну — небезпечно.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -585,7 +585,7 @@ questions = [
         }
     },
     {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "Генетична модифікація — це добре, навіть на людях.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -594,7 +594,7 @@ questions = [
         }
     },
     {
-        "question": "We should open our borders to immigration.",
+        "question": "Ми повинні відкрити кордони для іміграції.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -603,7 +603,7 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreign citizens as they are about those within their borders.",
+        "question": "Уряди мають бути дбати про іноземців так само, як і своїх громадянам, поки ті перебувають у державі.",
         "effect": {
             "econ": 10,
             "dipl": 10,
@@ -612,7 +612,7 @@ questions = [
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "До всіх людей, незалежно від таких чинників, як культура чи сексуальна орієнтація, потрібно ставитися однаково.",
         "effect": {
             "econ": 10,
             "dipl": 10,
@@ -621,7 +621,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "Важливо ставити цілі моєї групи понад усі інші.",
         "effect": {
             "econ": -10,
             "dipl": -10,
