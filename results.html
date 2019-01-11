@@ -1,12 +1,12 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>Результати</title>
+<title>8values Results</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script>
-  version = "Видання 1" //Remember to update this before making changes to the test itself!
+  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
 </script>
 </head>
 <script type="application/javascript"
@@ -14,7 +14,7 @@
 </script>
 
 <body>
-<h1>8 значень</h1>
+<h1>8values</h1>
 <hr>
 
 <h1>Результати</h1>
@@ -48,8 +48,8 @@
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
 <h2>Найближчий збіг: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Підбір найбільш подібної ідеології ще у розробці, і значно менш точний за самі значення та вісі.</p>
-<p>Ви можете поділитися результатами, скопіювавши та вставивши розміщене вгорі сторінки посилання, або скориставшись зображенням нижче.</p>
+<p>Підбір найбільш підходящої ідеології ще в розробці, і є значно менш точним, аніж данні цінностей та осей.</p>
+<p>Ви можете поділитися результатами, скопіювавши та вставивши посилання вгорі сторінки або скориставшися зображенням нижче.</p>
 <hr/>
 <canvas id="banner" width=800 height=650 style="font-family:Montserrat"></canvas>
 <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
@@ -80,6 +80,7 @@ stats"></a></div></noscript>
            }
            return(NaN);
     }
+
     function setBarValue(name, value) {
         innerel = document.getElementById(name)
         outerel = document.getElementById("bar-" + name)
@@ -89,10 +90,12 @@ stats"></a></div></noscript>
             innerel.style.visibility = "hidden"
         }
     }
-    econArray = ["Комунізм","Соціалізм","Соціальна політика","Центризм","Ринкова економіка","Капіталізм","Laissez-faire"]
-    diplArray = ["Космополітизм","Інтернаціоналізм","Миролюбство","Баланс","Патріотизм","Націоналізм","Шовінізм"]
-    govtArray = ["Анархізм","Лібертаріанство","Лібералізм","Поиірна влада","Етатизм","Авторитаризм","Тоталітаризм"]
-    sctyArray = ["Революціонізм","Крайній прогресивізм","Прогресивізм","Нейтрально","Традиціоналізм","Крайній традиціоналізм","Реакціонізм"]
+
+    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
+    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
+    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
+    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
@@ -104,6 +107,7 @@ stats"></a></div></noscript>
         if (val >= 0) { return ary[6] } else
         	{return ""}
     }
+
     equality  = getQueryVariable("e")
     peace     = getQueryVariable("d")
     liberty   = getQueryVariable("g")
@@ -112,18 +116,21 @@ stats"></a></div></noscript>
     might     = (100 - peace   ).toFixed(1)
     authority = (100 - liberty ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
-    setBarValue("рівність", equality)
-    setBarValue("багатство", wealth)
-    setBarValue("мир", peace)
-    setBarValue("міць", might)
-    setBarValue("свобода", liberty)
-    setBarValue("влада", authority)
-    setBarValue("прогрес", progress)
-    setBarValue("традиція", tradition)
+
+    setBarValue("equality", equality)
+    setBarValue("wealth", wealth)
+    setBarValue("peace", peace)
+    setBarValue("might", might)
+    setBarValue("liberty", liberty)
+    setBarValue("authority", authority)
+    setBarValue("progress", progress)
+    setBarValue("tradition", tradition)
+
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
@@ -138,6 +145,7 @@ stats"></a></div></noscript>
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
+
     function createImage(src, x, y, w, h) {
         img = new Image ()
         img.src = src
@@ -145,11 +153,13 @@ stats"></a></div></noscript>
             ctx.drawImage(img, x, y, w, h)
         }
     }
+
     window.onload = function() {
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,600)
+
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
         img = document.getElementById("img-wealth")
@@ -166,6 +176,7 @@ stats"></a></div></noscript>
         ctx.drawImage(img, 20, 530, 100, 100)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 530, 100, 100)
+
         ctx.fillStyle="#222222"
         ctx.fillRect(120, 180, 560, 80)
         ctx.fillRect(120, 300, 560, 80)
@@ -193,6 +204,7 @@ stats"></a></div></noscript>
         ctx.fillText("8values", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
+
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
         if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
@@ -203,14 +215,15 @@ stats"></a></div></noscript>
         if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+
         ctx.font="300 30px Montserrat"
         ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Економічна вісь: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Дипломатична вісь: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Громадянська вісь: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Суспільна вісь: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
     }
     </script>
 </body>
